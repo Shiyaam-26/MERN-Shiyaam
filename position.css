@@ -1,0 +1,17 @@
+body
+{
+    background-color: powderblue;
+}
+.p1
+{
+    color:blueviolet;
+    border: solid 3px black;
+    position: absolute;
+}
+.p2
+{
+    color: blue;
+    border: solid 3px brown;
+    position: absolute;
+    margin-top: 100px;
+}
