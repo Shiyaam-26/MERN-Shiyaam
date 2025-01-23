@@ -1,0 +1,22 @@
+
+.Nav-heading
+{
+  margin-left: 30px;
+  margin-right: 300px;
+}
+ul
+{
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+li
+{
+    text-decoration: none;
+    list-style: none;
+}
+nav
+{
+    background-color: antiquewhite;
+    padding: 1px;
+}

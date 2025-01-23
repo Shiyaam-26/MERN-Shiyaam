@@ -1,0 +1,40 @@
+body
+{
+    background-color:blanchedalmond;
+}
+h3
+{
+    font-size: 25px;        
+}
+label
+{
+    font-size: large;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+}
+input
+{
+    border-radius: 5px;
+    font-size: medium;
+}
+#error
+{
+    color: red;
+    font-weight: bold;
+}
+.submit
+{
+    background-color: aqua;
+    border-radius: px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: none;
+}
