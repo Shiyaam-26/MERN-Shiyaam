@@ -1,14 +1,31 @@
 body
 {
-    background-color:blanchedalmond;
+    background-color:rgb(233, 227, 243);
 }
-h3
+.heading
 {
-    font-size: 25px;        
+    font-size: 30px;   
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;     
 }
 label
 {
-    font-size: large;
+    font-size: 21px;
+}
+.div1{
+    
+    border-style: solid;
+    border: #41dfff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    padding: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
 .container
 {
@@ -23,6 +40,8 @@ input
 {
     border-radius: 5px;
     font-size: medium;
+    border: #41dfff;
+    padding: 5px;
 }
 #error
 {
@@ -33,8 +52,9 @@ input
 {
     background-color: aqua;
     border-radius: px;
-    color: white;
-    padding: 5px 10px;
+    color: black;
+    padding: 10px 15px;
+    font-size: 15px;
     border-radius: 8px;
     border: none;
 }
