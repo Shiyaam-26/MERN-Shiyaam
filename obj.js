@@ -24,3 +24,14 @@ let array=[1,2,3,4,5,6,7,8]
 for(let value of array){
     console.log(value);
 }
+
+let arrCopy=[...array,9,10]
+console.log(array)
+console.log(arrCopy)
+let arrMerge=[...array,...arrCopy]
+console.log(arrMerge);
+
+let user1={name:"name",age:30}
+let address={city:"CBE",country:"India"}
+let info={...user1,...address}
+console.log(info)
