@@ -1,0 +1,10 @@
+/* ul,li,a{
+    display: flex;
+    gap: 20px; 
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    justify-content: flex-end;
+    padding-right: 10px;
+} */
